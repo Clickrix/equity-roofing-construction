@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Equity Roofing and Construction | Keller, TX Roofing & Construction Experts</title>
+<meta name="description" content="Equity Roofing & Construction — your best choice for professional roofing and construction work in Keller and North Texas. Call 817-614-4357.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#12263f; --navy2:#1a3557; --gold:#d9a441; --gold2:#b98730;
+  --light:#f6f4ee; --text:#2b2f36; --muted:#5f6b7a;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Barlow',Arial,sans-serif;color:var(--text);line-height:1.65;background:#fff}
+h1,h2,h3{font-family:'Barlow Condensed',Arial,sans-serif;line-height:1.2;color:var(--navy);letter-spacing:.3px}
+a{text-decoration:none}
+nav{position:sticky;top:0;z-index:100;background:var(--navy);display:flex;align-items:center;justify-content:space-between;padding:.85rem 5%}
+.brand{font-family:'Barlow Condensed';font-weight:800;font-size:1.25rem;color:#fff;letter-spacing:.5px}
+.brand span{color:var(--gold)}
+.nav-call{background:var(--gold);color:var(--navy);font-weight:600;padding:.55rem 1.2rem;border-radius:6px;font-size:.95rem;transition:background .2s}
+.nav-call:hover{background:#e8b85c}
+.hero{background:linear-gradient(120deg,var(--navy) 0%,var(--navy2) 60%,#2f5a8c 100%);color:#fff;padding:4.6rem 5% 4.2rem;position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;left:50%;bottom:-180px;width:520px;height:520px;border-radius:50%;background:rgba(217,164,65,.12)}
+.hero-inner{max-width:1050px;margin:0 auto;position:relative;z-index:2}
+.badge{display:inline-block;background:var(--gold);color:var(--navy);font-weight:600;padding:.35rem .95rem;border-radius:999px;font-size:.82rem;letter-spacing:.6px;margin-bottom:1.2rem;text-transform:uppercase}
+.hero h1{color:#fff;font-size:clamp(2.1rem,5.2vw,3.5rem);font-weight:800;margin-bottom:1rem;max-width:17ch}
+.hero p{font-size:1.1rem;max-width:58ch;color:#dbe3ee;margin-bottom:2rem}
+.cta-row{display:flex;gap:1rem;flex-wrap:wrap}
+.btn-call{background:var(--gold);color:var(--navy);font-family:'Barlow Condensed';font-weight:800;font-size:1.2rem;letter-spacing:.4px;padding:.9rem 2.1rem;border-radius:8px;box-shadow:0 6px 20px rgba(0,0,0,.3);transition:transform .15s}
+.btn-call:hover{transform:translateY(-2px)}
+.btn-sec{border:2px solid rgba(255,255,255,.55);color:#fff;font-weight:500;padding:.85rem 1.6rem;border-radius:8px}
+.trust{background:var(--gold);padding:1.1rem 5%;display:flex;justify-content:center;gap:2.6rem;flex-wrap:wrap;text-align:center}
+.trust div{font-family:'Barlow Condensed';font-weight:700;font-size:1rem;color:var(--navy)}
+.trust small{display:block;font-family:'Barlow';font-weight:400;color:#5a4a1e;font-size:.78rem;margin-top:.1rem}
+section{padding:4rem 5%}
+.wrap{max-width:1050px;margin:0 auto}
+.kicker{color:var(--gold2);font-weight:600;text-transform:uppercase;letter-spacing:1.6px;font-size:.8rem;margin-bottom:.5rem}
+h2.sec{font-size:clamp(1.7rem,3.6vw,2.5rem);font-weight:800;margin-bottom:1rem;text-transform:uppercase}
+.lead{font-size:1.06rem;color:var(--muted);max-width:62ch;margin-bottom:2.5rem}
+.svc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.4rem}
+.svc{background:#fff;border:1px solid #e9e4d8;border-radius:12px;padding:1.7rem 1.5rem;box-shadow:0 3px 12px rgba(18,38,63,.06);border-bottom:5px solid var(--navy)}
+.svc h3{font-size:1.25rem;margin-bottom:.5rem}
+.svc p{font-size:.94rem;color:var(--muted)}
+.svc .icon{font-size:1.7rem;margin-bottom:.7rem;display:block}
+.about{background:var(--light)}
+.about-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:3rem;align-items:start}
+.about ul{list-style:none;margin-top:1.4rem}
+.about li{padding:.7rem 0 .7rem 2rem;position:relative;border-bottom:1px solid #ddd6c4;font-size:.97rem}
+.about li::before{content:"▸";position:absolute;left:.3rem;color:var(--gold2);font-weight:800}
+.info-card{background:var(--navy);color:#fff;border-radius:12px;padding:2rem;margin-top:1.5rem}
+.info-card h3{color:var(--gold);margin-bottom:.8rem;font-size:1.4rem}
+.info-card p{font-size:.95rem;margin:.35rem 0;color:#dbe3ee}
+.info-card a{color:var(--gold)}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.4rem;margin-top:2rem}
+.step{background:var(--light);border-radius:12px;padding:1.8rem 1.5rem;text-align:center;border-top:5px solid var(--gold)}
+.step .num{display:inline-flex;width:52px;height:52px;border-radius:50%;background:var(--navy);color:var(--gold);font-family:'Barlow Condensed';font-weight:800;font-size:1.35rem;align-items:center;justify-content:center;margin-bottom:1rem}
+.step h3{margin-bottom:.5rem;font-size:1.25rem}
+.step p{font-size:.93rem;color:var(--muted)}
+.contact{background:linear-gradient(120deg,var(--navy2) 0%,var(--navy) 70%);color:#fff;text-align:center}
+.contact h2{color:#fff}
+.contact .lead{color:#c6d2e2;margin-left:auto;margin-right:auto;max-width:52ch}
+.contact .cta-row{justify-content:center}
+.contact a.mail{display:inline-block;margin-top:1.4rem;color:var(--gold);font-weight:600;font-size:1.05rem}
+footer{background:#0c1a2c;color:#8b99ad;text-align:center;padding:1.6rem 5%;font-size:.85rem}
+footer strong{color:#c6d2e2}
+@media(max-width:760px){
+  .about-grid{grid-template-columns:1fr;gap:2rem}
+  section{padding:3rem 5%}
+  .hero{padding:3.2rem 5% 2.8rem}
+  .trust{gap:1.2rem}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="brand" href="#top">EQUITY ROOFING <span>&amp; CONSTRUCTION</span></a>
+  <a class="nav-call" href="tel:+18176144357">Call 817-614-4357</a>
+</nav>
+
+<header class="hero" id="top">
+  <div class="hero-inner">
+    <span class="badge">Keller, Texas · Residential Roofing &amp; Construction</span>
+    <h1>North Texas' Best Choice for Professional Roofing Work</h1>
+    <p>Equity Roofing &amp; Construction is dedicated to customer service and satisfaction. Our professional technicians and friendly support staff make sure your home roofing project adds real value to your home.</p>
+    <div class="cta-row">
+      <a class="btn-call" href="tel:+18176144357">Call 817-614-4357</a>
+      <a class="btn-sec" href="mailto:info@equityroofing.com">Get a Free Quote</a>
+    </div>
+  </div>
+</header>
+
+<div class="trust">
+  <div>Keller-Based<small>proudly serving North Texas</small></div>
+  <div>Customer First<small>satisfaction is our standard</small></div>
+  <div>Free Quotes<small>honest, detailed estimates</small></div>
+  <div>Residential Experts<small>roofs that add home value</small></div>
+</div>
+
+<section id="services">
+  <div class="wrap">
+    <div class="kicker">Our Services</div>
+    <h2 class="sec">Roofing &amp; Construction Done Right</h2>
+    <p class="lead">Professional roofing and construction work for homeowners across Keller and the greater North Texas area.</p>
+    <div class="svc-grid">
+      <div class="svc">
+        <span class="icon">🔧</span>
+        <h3>Roof Flashing Repair</h3>
+        <p>Leaking around chimneys, vents, or valleys? We repair and replace failed flashing to stop leaks at the source.</p>
+      </div>
+      <div class="svc">
+        <span class="icon">🏠</span>
+        <h3>Roof Replacement</h3>
+        <p>Full roof replacements that add value to your home — professional installation with attention to every detail.</p>
+      </div>
+      <div class="svc">
+        <span class="icon">🛠️</span>
+        <h3>Roof Repair</h3>
+        <p>From missing shingles to storm damage, our technicians restore your roof quickly and correctly.</p>
+      </div>
+      <div class="svc">
+        <span class="icon">🔍</span>
+        <h3>Roof Inspections</h3>
+        <p>Thorough inspections that identify problems early — with clear answers to all your roofing questions.</p>
+      </div>
+      <div class="svc">
+        <span class="icon">⛈️</span>
+        <h3>Storm Damage Restoration</h3>
+        <p>Texas storms are tough on roofs. We restore hail and wind damage and help you navigate the process.</p>
+      </div>
+      <div class="svc">
+        <span class="icon">🏗️</span>
+        <h3>Construction Services</h3>
+        <p>Beyond roofing, our construction team handles home projects that improve and protect your property.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="wrap">
+    <div class="about-grid">
+      <div>
+        <div class="kicker">About Equity</div>
+        <h2 class="sec">A Roofing Company That Puts You First</h2>
+        <p>Equity Roofing &amp; Construction exists for one reason: to make sure your home roofing project adds value to your home. Professional technicians, friendly support staff, and honest answers — every time.</p>
+        <ul>
+          <li>Dedicated to customer service and satisfaction on every project</li>
+          <li>Professional technicians who treat your home with respect</li>
+          <li>Honest guidance — visit our FAQ or call to speak with a roofing professional</li>
+          <li>Serving Keller and communities across North Texas</li>
+        </ul>
+      </div>
+      <div>
+        <div class="info-card">
+          <h3>Contact Equity</h3>
+          <p><strong>📍</strong> 8528 Davis Blvd, Suite 134-320<br>North Richland Hills, TX 76182</p>
+          <p><strong>📞</strong> <a href="tel:+18176144357">817-614-4357</a></p>
+          <p><strong>✉️</strong> <a href="mailto:info@equityroofing.com">info@equityroofing.com</a></p>
+          <p style="margin-top:.8rem">Speak with an Equity Roofing Professional today.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="process">
+  <div class="wrap">
+    <div class="kicker">How It Works</div>
+    <h2 class="sec">Your Roof Project in Three Steps</h2>
+    <p class="lead">Simple, transparent, and centered on your satisfaction.</p>
+    <div class="steps">
+      <div class="step">
+        <span class="num">1</span>
+        <h3>Call or Email Us</h3>
+        <p>Call 817-614-4357 or send an email to info@equityroofing.com and tell us about your roofing project.</p>
+      </div>
+      <div class="step">
+        <span class="num">2</span>
+        <h3>Get Your Free Quote</h3>
+        <p>We assess your roof and provide a detailed, honest estimate with no obligation and no pressure.</p>
+      </div>
+      <div class="step">
+        <span class="num">3</span>
+        <h3>Enjoy Your New Roof</h3>
+        <p>Our professional technicians complete the work cleanly — a roof that adds value to your home.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="kicker" style="color:var(--gold)">Contact Us</div>
+    <h2 class="sec">Talk to an Equity Roofing Professional</h2>
+    <p class="lead">For additional information about our services, call or email — we're happy to answer your roofing questions.</p>
+    <div class="cta-row">
+      <a class="btn-call" href="tel:+18176144357">Call 817-614-4357</a>
+    </div>
+    <a class="mail" href="mailto:info@equityroofing.com">✉️ info@equityroofing.com</a>
+  </div>
+</section>
+
+<footer>
+  <strong>Equity Roofing and Construction</strong> · Keller &amp; North Richland Hills, TX<br>
+  © 2026 Equity Roofing and Construction. All rights reserved.
+</footer>
+
+</body>
+</html>
